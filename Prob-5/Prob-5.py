@@ -2,10 +2,22 @@
 #   Programming Assignment 4
 #     Prob-5.py
 
-# <YOUR NAME>
+# Nathan Spelts
 
 def main():
-    x = eval(2)
-    print("x:", x)
+    try:
+        x = eval(1)
+        print()
+        print("x:", x)
+        print()
+    except TypeError:
+        print()
+        print("variable assignment is a statement, not an expression")
+        print()
+    except:
+        print()
+        print("something went wrong")
+        print()
+
 
 main()
