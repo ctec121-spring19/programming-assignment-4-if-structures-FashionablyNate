@@ -16,6 +16,7 @@ def unitTest():
     print("Shipping cost if subtotal < 10.00:\t", shippingCost(5.99))
     # enter additional test code here
     print("Shipping cost if subtotal >= 10.00:\t", shippingCost(17.99))
+    print("Shipping cost if subtotal = 10.00:\t", shippingCost(10.00))
 if __name__ == "__main__":
     unitTest()
 print()

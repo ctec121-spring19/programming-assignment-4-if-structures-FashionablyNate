@@ -12,7 +12,7 @@ def main():
         print()
     except TypeError:
         print()
-        print("variable assignment is a statement, not an expression")
+        print("variable assignment is an int or float, needs a string")
         print()
     except:
         print()

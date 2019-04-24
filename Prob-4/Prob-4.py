@@ -24,7 +24,8 @@ def coffeeProcessor():
     priceOfCoffee = 16.50
 
     # get number of pounds from user
-    # fixed syntax, added quotations and parenthesis
+    # fixed syntax, added quotations 
+    # fixed syntax, added parenthesis
     quantity = float(input("How many pounds of coffee would you like to order? "))
     
     # Check number of pounds ordered
